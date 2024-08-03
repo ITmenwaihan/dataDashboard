@@ -8,6 +8,7 @@ import ReactEcharts from "echarts-for-react";
   }
 
 const StackedAreaChart:React.FC<chartProps> = (props) => {
+    // throw new Error('fafa')
   const {ratio} = props;
   const option = {
     tooltip: {

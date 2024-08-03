@@ -42,6 +42,8 @@ export default function Page() {
 
   }, [])
 
+  // const now = Date.now()
+
 
 
 
@@ -51,6 +53,9 @@ export default function Page() {
         <StackedAreaChart ratio={userRatio}/>
         <BeijingAQI ratio={userRatio}/>
       </div>
+      <h1>
+        {/*{now}*/}
+      </h1>
     </div>
   )
 }
