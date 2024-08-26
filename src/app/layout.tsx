@@ -18,18 +18,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav>
-          <ul>
-            <li>
-              <Link href={'/'}>
-                {'home'}
-              </Link>
-              <Link href={'/dashboard'}>
-                {'dashboard'}
-              </Link>
-            </li>
-          </ul>
-        </nav>
+        {/*<nav>*/}
+        {/*  <ul>*/}
+        {/*    <li>*/}
+        {/*      <Link href={'/'}>*/}
+        {/*        {'home'}*/}
+        {/*      </Link>*/}
+        {/*      <Link href={'/dashboard'}>*/}
+        {/*        {'dashboard'}*/}
+        {/*      </Link>*/}
+        {/*    </li>*/}
+        {/*  </ul>*/}
+        {/*</nav>*/}
         {children}
       </body>
     </html>
